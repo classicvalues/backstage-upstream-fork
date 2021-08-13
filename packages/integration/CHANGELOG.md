@@ -1,5 +1,11 @@
 # @backstage/integration
 
+## 0.6.1
+
+### Patch Changes
+
+- b8cb12009: Add AWS S3 URL Reader
+
 ## 0.6.0
 
 ### Minor Changes

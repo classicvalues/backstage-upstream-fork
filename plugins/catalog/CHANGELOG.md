@@ -1,5 +1,13 @@
 # @backstage/plugin-catalog
 
+## 0.6.12
+
+### Patch Changes
+
+- fa1e003e0: Show a Not Found message when navigating to a nonexistent entity
+- Updated dependencies
+  - @backstage/integration@0.6.1
+
 ## 0.6.11
 
 ### Patch Changes

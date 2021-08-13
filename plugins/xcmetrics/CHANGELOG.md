@@ -1,5 +1,12 @@
 # @backstage/plugin-xcmetrics
 
+## 0.2.3
+
+### Patch Changes
+
+- eed15251e: Enable browsing detailed build information such as host configuration, errors, warnings, metadata and a timeline for all targets
+- 8ee9aa066: Internal refactoring
+
 ## 0.2.2
 
 ### Patch Changes

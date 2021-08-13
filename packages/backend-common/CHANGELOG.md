@@ -1,5 +1,13 @@
 # @backstage/backend-common
 
+## 0.8.10
+
+### Patch Changes
+
+- b8cb12009: Add AWS S3 URL Reader
+- Updated dependencies
+  - @backstage/integration@0.6.1
+
 ## 0.8.9
 
 ### Patch Changes

@@ -1,5 +1,14 @@
 # @backstage/plugin-catalog-backend
 
+## 0.13.3
+
+### Patch Changes
+
+- 61aa6526f: Avoid duplicate work by comparing previous processing rounds with the next
+- Updated dependencies
+  - @backstage/backend-common@0.8.10
+  - @backstage/integration@0.6.1
+
 ## 0.13.2
 
 ### Patch Changes

@@ -1,5 +1,13 @@
 # @backstage/plugin-jenkins-backend
 
+## 0.1.3
+
+### Patch Changes
+
+- efbb82dd3: Extract `JenkinsConfig` to make writing a custom `JenkinsInfoProvider` easier.
+- Updated dependencies
+  - @backstage/backend-common@0.8.10
+
 ## 0.1.2
 
 ### Patch Changes

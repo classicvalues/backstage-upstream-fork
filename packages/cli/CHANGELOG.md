@@ -1,5 +1,12 @@
 # @backstage/cli
 
+## 0.7.9
+
+### Patch Changes
+
+- 2518aab58: Compensate for error formatting mismatch between Webpack 5 and react-dev-utils
+- 8d07a8b03: Add Buffer to `ProvidePlugin` since this is no longer provided in `webpack@5`
+
 ## 0.7.8
 
 ### Patch Changes
