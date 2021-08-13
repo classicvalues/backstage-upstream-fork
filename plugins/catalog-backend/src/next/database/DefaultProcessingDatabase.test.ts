@@ -21,6 +21,7 @@ import { JsonObject } from '@backstage/config';
 import { Knex } from 'knex';
 import { Logger } from 'winston';
 import * as uuid from 'uuid';
+import { DateTime } from 'luxon';
 import { DatabaseManager } from './DatabaseManager';
 import { DefaultProcessingDatabase } from './DefaultProcessingDatabase';
 import {
@@ -47,6 +48,7 @@ describe('Default Processing Database', () => {
         database: knex,
         logger,
         refreshIntervalSeconds: 100,
+        refreshSpreadSeconds: { min: 10, max: 60 },
       }),
     };
   }
@@ -946,6 +948,45 @@ describe('Default Processing Database', () => {
             }),
           ).resolves.toEqual({ items: [] });
         });
+      },
+      60_000,
+    );
+
+    it.each(databases.eachSupportedId())(
+      'should update the next_refresh interval with a timestamp that includes refresh spread, %p',
+      async databaseId => {
+        const { knex, db } = await createDatabase(databaseId);
+        const entity = JSON.stringify({
+          kind: 'Location',
+          apiVersion: '1.0.0',
+          metadata: {
+            name: 'xyz',
+          },
+        } as Entity);
+        await knex<DbRefreshStateRow>('refresh_state').insert({
+          entity_id: '2',
+          entity_ref: 'location:default/new-root',
+          unprocessed_entity: entity,
+          errors: '[]',
+          next_update_at: '2019-01-01 23:00:00',
+          last_discovery_at: '2021-04-01 13:37:00',
+        });
+        await db.transaction(async tx => {
+          // Result does not include the updated timestamp
+          await db.getProcessableEntities(tx, {
+            processBatchSize: 1,
+          });
+        });
+        const now = DateTime.local();
+        const result = await knex<DbRefreshStateRow>('refresh_state')
+          .where('entity_ref', 'location:default/new-root')
+          .select();
+        const nextUpdate = DateTime.fromSQL(result[0].next_update_at, {
+          zone: 'utc',
+        });
+        expect(nextUpdate.diff(now, 'seconds').seconds).toBeGreaterThanOrEqual(
+          110,
+        );
       },
       60_000,
     );
