@@ -332,7 +332,7 @@ export async function queryWithPaging<
   GraphqlType,
   OutputType,
   Variables extends {},
-  Response = QueryResponse
+  Response = QueryResponse,
 >(
   client: typeof graphql,
   query: string,
