@@ -6444,10 +6444,10 @@
   dependencies:
     "@types/express" "*"
 
-"@types/concat-stream@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.npmjs.org/@types/concat-stream/-/concat-stream-1.6.0.tgz#394dbe0bb5fee46b38d896735e8b68ef2390d00d"
-  integrity sha1-OU2+C7X+5Gs42JZzXoto7yOQ0A0=
+"@types/concat-stream@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/@types/concat-stream/-/concat-stream-2.0.0.tgz#a716f0ba9015014e643addb351da05a73bef425c"
+  integrity sha512-t3YCerNM7NTVjLuICZo5gYAXYoDvpuuTceCcFQWcDQz26kxUR5uIWolxbIR5jRNIXpMqhOpW/b8imCR1LEmuJw==
   dependencies:
     "@types/node" "*"
 
@@ -27758,9 +27758,9 @@ write-pkg@^4.0.0:
     write-json-file "^3.2.0"
 
 ws@7.4.5, ws@^7.4.6:
-  version "7.5.6"
-  resolved "https://registry.npmjs.org/ws/-/ws-7.5.6.tgz#e59fc509fb15ddfb65487ee9765c5a51dec5fe7b"
-  integrity sha512-6GLgCqo2cy2A2rjCNFlxQS6ZljG/coZfZXclldI8FB/1G3CCI36Zd8xy2HrFVACi8tfk5XrgLQEk+P0Tnz9UcA==
+  version "7.5.7"
+  resolved "https://registry.npmjs.org/ws/-/ws-7.5.7.tgz#9e0ac77ee50af70d58326ecff7e85eb3fa375e67"
+  integrity sha512-KMvVuFzpKBuiIXW3E4u3mySRO2/mCHSyZDJQM5NQ9Q9KHWHWh0NHgfbRMLLrceUK5qAL4ytALJbpRMjixFZh8A==
 
 ws@^5.2.0:
   version "5.2.3"
