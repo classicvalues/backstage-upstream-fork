@@ -64,7 +64,7 @@
     "@octokit/openapi-types": "^2.2.0",
     "@spotify/prettier-config": "^10.0.0",
     "command-exists": "^1.2.9",
-    "concurrently": "^6.0.0",
+    "concurrently": "^7.1.0",
     "eslint-plugin-notice": "^0.9.10",
     "fs-extra": "9.1.0",
     "husky": "^6.0.0",
