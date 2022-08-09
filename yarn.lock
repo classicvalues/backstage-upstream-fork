@@ -7685,9 +7685,9 @@
     "@types/yargs-parser" "*"
 
 "@types/yarnpkg__lockfile@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.npmjs.org/@types/yarnpkg__lockfile/-/yarnpkg__lockfile-1.1.4.tgz#445251eb00bd9c1e751f82c7c6bf4f714edfd464"
-  integrity sha512-/emrKCfQMQmFCqRqqBJ0JueHBT06jBRM3e8OgnvDUcvuExONujIk2hFA5dNsN9Nt41ljGVDdChvCydATZ+KOZw==
+  version "1.1.5"
+  resolved "https://registry.npmjs.org/@types/yarnpkg__lockfile/-/yarnpkg__lockfile-1.1.5.tgz#9639020e1fb65120a2f4387db8f1e8b63efdf229"
+  integrity sha512-8NYnGOctzsI4W0ApsP/BIHD/LnxpJ6XaGf2AZmz4EyDYJMxtprN4279dLNI1CPZcwC9H18qYcaFv4bXi0wmokg==
 
 "@types/yup@^0.29.8":
   version "0.29.12"
@@ -27758,9 +27758,9 @@ write-pkg@^4.0.0:
     write-json-file "^3.2.0"
 
 ws@7.4.5, ws@^7.4.6:
-  version "7.5.6"
-  resolved "https://registry.npmjs.org/ws/-/ws-7.5.6.tgz#e59fc509fb15ddfb65487ee9765c5a51dec5fe7b"
-  integrity sha512-6GLgCqo2cy2A2rjCNFlxQS6ZljG/coZfZXclldI8FB/1G3CCI36Zd8xy2HrFVACi8tfk5XrgLQEk+P0Tnz9UcA==
+  version "7.5.9"
+  resolved "https://registry.npmjs.org/ws/-/ws-7.5.9.tgz#54fa7db29f4c7cec68b1ddd3a89de099942bb591"
+  integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
 
 ws@^5.2.0:
   version "5.2.3"
