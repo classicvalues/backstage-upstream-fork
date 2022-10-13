@@ -20448,9 +20448,9 @@ obuf@^1.0.0, obuf@^1.1.2:
   integrity sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==
 
 octokit-plugin-create-pull-request@^3.9.3:
-  version "3.9.3"
-  resolved "https://registry.npmjs.org/octokit-plugin-create-pull-request/-/octokit-plugin-create-pull-request-3.9.3.tgz#f99f53907ac322a3494cc970514a023d7b659e2b"
-  integrity sha512-lTyNnCRoT4IvCQx2Cb4eFMqg8aIpsaDd59MNwf4OPnWAJM7hT6g7RW/icImvAzZLR4t5ENSLNzWarv2XqLL+Lg==
+  version "3.13.1"
+  resolved "https://registry.npmjs.org/octokit-plugin-create-pull-request/-/octokit-plugin-create-pull-request-3.13.1.tgz#fe6f15375cc4592dfa25730778c090f9f2721979"
+  integrity sha512-nsWZRn7NrqZvqGl3E0VcDDyyS/4xbNNvwWM2yk65TViLdEBoOhIU5SqKdfqANa+WPwv5DwHsO3T10DK1qMg72w==
   dependencies:
     "@octokit/types" "^6.8.2"
 
@@ -27758,9 +27758,9 @@ write-pkg@^4.0.0:
     write-json-file "^3.2.0"
 
 ws@7.4.5, ws@^7.4.6:
-  version "7.5.6"
-  resolved "https://registry.npmjs.org/ws/-/ws-7.5.6.tgz#e59fc509fb15ddfb65487ee9765c5a51dec5fe7b"
-  integrity sha512-6GLgCqo2cy2A2rjCNFlxQS6ZljG/coZfZXclldI8FB/1G3CCI36Zd8xy2HrFVACi8tfk5XrgLQEk+P0Tnz9UcA==
+  version "7.5.9"
+  resolved "https://registry.npmjs.org/ws/-/ws-7.5.9.tgz#54fa7db29f4c7cec68b1ddd3a89de099942bb591"
+  integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
 
 ws@^5.2.0:
   version "5.2.3"
