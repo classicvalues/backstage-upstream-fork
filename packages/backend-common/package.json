@@ -54,7 +54,7 @@
     "isomorphic-git": "^1.8.0",
     "keyv": "^4.0.3",
     "keyv-memcache": "^1.2.5",
-    "knex": "^0.95.1",
+    "knex": "^2.4.0",
     "lodash": "^4.17.15",
     "logform": "^2.1.1",
     "minimatch": "^3.0.4",
