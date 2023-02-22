@@ -34,14 +34,14 @@
     "git-url-parse": "~11.4.4",
     "@octokit/rest": "^18.5.3",
     "@octokit/auth-app": "^3.4.0",
-    "luxon": "^2.0.2"
+    "luxon": "^3.2.1"
   },
   "devDependencies": {
     "@backstage/cli": "^0.7.8",
     "@backstage/config-loader": "^0.6.6",
     "@backstage/test-utils": "^0.1.17",
     "@types/jest": "^26.0.7",
-    "@types/luxon": "^1.25.0",
+    "@types/luxon": "^3.2.0",
     "msw": "^0.29.0"
   },
   "files": [
