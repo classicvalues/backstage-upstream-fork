@@ -38,7 +38,7 @@
     "pg": "^8.3.0",
     "sqlite3": "^5.0.1",
     "testcontainers": "^7.10.0",
-    "uuid": "^8.0.0"
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@backstage/cli": "^0.7.8",
