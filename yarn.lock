@@ -9069,10 +9069,10 @@ axobject-query@^2.2.0:
   resolved "https://registry.npmjs.org/axobject-query/-/axobject-query-2.2.0.tgz#943d47e10c0b704aa42275e20edf3722648989be"
   integrity sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA==
 
-azure-devops-node-api@^10.2.2:
-  version "10.2.2"
-  resolved "https://registry.npmjs.org/azure-devops-node-api/-/azure-devops-node-api-10.2.2.tgz#9f557e622dd07bbaa9bd5e7e84e17c761e2151b2"
-  integrity sha512-4TVv2X7oNStT0vLaEfExmy3J4/CzfuXolEcQl/BRUmvGySqKStTG2O55/hUQ0kM7UJlZBLgniM0SBq4d/WkKow==
+azure-devops-node-api@^12.5.0:
+  version "12.5.0"
+  resolved "https://registry.npmjs.org/azure-devops-node-api/-/azure-devops-node-api-12.5.0.tgz#38b9efd7c5ac74354fe4e8dbe42697db0b8e85a5"
+  integrity sha512-R5eFskGvOm3U/GzeAuxRkUsAl0hrAwGgWn6zAd2KrZmrEhWZVqLew4OOupbQlXUuojUzpGtq62SmdhJ06N88og==
   dependencies:
     tunnel "0.0.6"
     typed-rest-client "^1.8.4"
