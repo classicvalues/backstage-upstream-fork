@@ -99,7 +99,7 @@
     "jest": "^26.0.1",
     "mock-fs": "^4.13.0",
     "msw": "^0.29.0",
-    "mysql2": "^2.2.5",
+    "mysql2": "^3.10.2",
     "recursive-readdir": "^2.2.2",
     "supertest": "^6.1.3"
   },
