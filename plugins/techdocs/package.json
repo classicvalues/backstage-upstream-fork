@@ -46,7 +46,7 @@
     "@material-ui/lab": "4.0.0-alpha.45",
     "@material-ui/styles": "^4.10.0",
     "@types/react": "*",
-    "dompurify": "^2.2.9",
+    "dompurify": "^3.4.11",
     "event-source-polyfill": "^1.0.25",
     "lodash": "^4.17.21",
     "react": "^16.13.1",
